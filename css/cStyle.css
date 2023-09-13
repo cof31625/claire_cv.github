@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    content: 20px;
+
+    background-color: white;
+}
+
+body nav {
+    margin: 0px;
+    padding-right: 20px;
+
+    background-color: #9EB384;
+    font-family: Courier, monospace;
+    display: flex;
+    justify-content: right;
+}
+
+h1 {
+    font-family: 'Alegreya', serif;
+    font-style:italic;
+    text-align:center;
+    color:#435334;
+}
+
+p{
+    font-family: 'Alegreya', serif;
+    font-style:normal;
+    text-align:center;
+    color:black;
+}
+
+nav a:link, nav a:visited {
+    background-color: #FAF1E4;
+    color: black;
+    border: 2px solid #435334;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+nav a:hover, nav a:active {
+    background-color: #435334;
+    color: #FAF1E4;
+}
+
+body footer {
+    margin-top: 100px;
+    padding: 0px;
+
+    background-color: #9EB384;
+    font-family: Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+footer a:link, footer a:visited {
+    color: black;
+    font-family: Courier, monospace;
+    text-decoration: none;
+}
+
+footer a:hover, footer a:active {
+    text-decoration: underline;
+    font-family: Courier, monospace;
+}
+
+.one-col .card {
+    background-color: #435334;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.one-col form label {
+    display: block; 
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    color: #FAF1E4;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    margin-bottom: 10px; 
+}
+
+.one-col form input[type="text"],
+.one-col form textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.one-col form input[type="submit"] {
+    background-color: #FAF1E4;
+    color: black;
+    border-color:black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.one-col form input[type="submit"]:hover {
+    background-color: #9EB384;
+    color: black;
+}
