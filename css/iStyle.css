@@ -1,0 +1,283 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    content: 20px;
+
+    background-color: white;
+}
+
+body nav {
+    margin: 0px;
+    padding-right: 20px;
+
+    background-color: #9EB384;
+    font-family: Courier, monospace;
+    display: flex;
+    justify-content: right;
+}
+
+nav a:link, nav a:visited {
+    background-color: #FAF1E4;
+    color: black;
+    border: 2px solid #435334;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+nav a:hover, nav a:active {
+    background-color: #435334;
+    color: #FAF1E4;
+}
+
+body footer {
+    margin-top: 100px;
+    padding: 0px;
+
+    background-color: #9EB384;
+    font-family: Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+footer a:link, footer a:visited {
+    color: black;
+    font-family: Courier, monospace;
+    text-decoration: none;
+}
+
+footer a:hover, footer a:active {
+    text-decoration: underline;
+    font-family: Courier, monospace;
+}
+
+.name h1{
+   position: center;
+   margin:0px;
+   padding:0px;
+   font-family: 'Alegreya', serif;
+   font-style:italic;
+   font-size: 40px;
+   color:#435334;
+}
+
+.blurb h2 {
+    position: center;
+    font-family: 'Alegreya', serif;
+    font-style:normal;
+    font-size: 35px;
+    color:#435334;
+    margin:0px;
+    padding:0px;
+}
+
+
+
+
+.splash {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+    background-color:#9EB384;
+}
+
+.splash .heading {
+    
+    margin: 0px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    
+    
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+    
+
+    text-align: center;
+}
+
+.splash .heading .vine1 {
+    position: absolute;
+    top: 75px;
+    left: 0px;
+}
+
+.splash .heading .vine1 img {
+    width:400px;
+    height:300px;
+}
+
+.splash .heading .vine2 {
+    position: absolute;
+    top: 75px;
+    right: 0px;
+
+}
+
+.splash .heading .vine2 img {
+    width:400px;
+    height:300px;
+}
+
+.splash .subheading {
+    
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    padding-top: 5px;
+    
+    
+    background-color: #9EB384;
+    justify-content: center;
+    align-items: center;
+
+   
+
+    text-align: center;
+}
+
+.splash .subheading h2 {
+    font-family: 'Alegreya', serif;
+    font-style:italic;
+    font-size: 40px;
+    color:#435334;
+    padding:0px;
+    
+}
+
+.splash .subheading p {
+    font-family: 'Alegreya', serif;
+    font-style:normal;
+    font-size: 25px;
+    color:#435334;
+}
+
+.splash .subheading img {
+    border-radius: 50%;
+ 
+    padding-top: 20px;
+}
+
+.splash .subheading .dots hr {
+    border-style:groove ;
+    border-width: 5px;
+    border-color: #435334;
+    
+}
+
+
+
+.splash .subheading .border hr {
+    border-style:groove ;
+    border-width: 5px;
+    border-color: #435334;
+}
+
+.column {
+    flex: 33.33%;
+    height: 200px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #435334;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container a:link, .container a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.container a:hover, .container a:active {
+    text-decoration: underline;
+}
+
+.three-col {
+    display: flex;
+    justify-content: center;
+    background-color:white;
+   
+}
+
+.three-col .card {
+    flex: 1;
+    margin: 10px;
+    padding-bottom: 50px;
+    padding-top: 5px;
+    max-width:350px;
+    
+    background-color:#435334;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 8px 16px 0 #435334;
+    transition: 0.3s;
+
+    text-align: center;
+}
+
+.three-col .card h3 {
+    font-family: 'Alegreya', serif;
+    font-style:italic;
+    font-size: 30px;
+    color:#FAF1E4;
+    padding:0px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    text-align:center;
+}
+
+.three-col .card ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left:0px;
+    font-family: 'Alegreya', serif;
+    font-style:normal;
+    font-size: 20px;
+}
+
+.three-col .card dl {
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    font-style:normal;
+    font-size: 20px;
+}
+
+.three-col .card dl dd {
+    margin-left:0px;
+    font-style:oblique;
+}
+
+.three-col .card dl dd a:link, .three-col .card dl dd a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+.three-col .card dl dd a:hover, .three-col .card dl dd a:active {
+    color: black;
+    text-decoration:underline;
+}
+
+.about {
+    background-color: white;
+    margin-top:20px;
+    margin-bottom: 0px;
+}
+
+.about h2 {
+    background-color:white;
+    text-align: center;
+    padding:0px;
+    font-family: 'Alegreya', serif;
+    font-style:italic;
+    font-size: 40px;
+    color:#435334;
+    padding:0px;
+}
+
